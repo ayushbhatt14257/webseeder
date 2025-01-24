@@ -1,0 +1,112 @@
+
+.homeh1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #4CAF50;
+  }
+  
+  .homeBtn {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .homeBtn:hover {
+    background-color: #45a049;
+  }
+  
+  /* Select dropdown */
+  .homeSelect {
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  /* Layout for journal list */
+  .homeUl {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .homeLi {
+    background: #ffffff;
+    margin: 10px 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .homeLi h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  .homeLi p {
+    margin: 5px 0;
+  }
+  
+  .homeLi .homeBtn {
+    margin-top: 10px;
+  }
+
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+  
+    .homeh1 {
+      font-size: 1.5em;
+    }
+  
+    .homeBtn {
+      width: 100%;
+    }
+    
+    .homeUl {
+        padding: 10px;
+    }
+    
+    .homeLi {
+        padding: 15px;
+    }
+    
+    
+    .homeSelect {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .homeBtn {
+        font-size: 14px;
+    }
+    
+    .homeLi {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .homeSelect {
+        font-size: 14px;
+    }
+    
+    .homeh1 {
+        font-size: 1.3em;
+    }
+    .homeSelect {
+        width: 30%;
+    }
+    .homeBtn {
+      width: 91%;
+    }
+}

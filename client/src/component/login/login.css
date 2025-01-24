@@ -1,0 +1,33 @@
+.login-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+form {
+  display: inline-block;
+  text-align: left;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+
+.success {
+  color: green;
+}
+
+.error {
+  color: red;
+}
