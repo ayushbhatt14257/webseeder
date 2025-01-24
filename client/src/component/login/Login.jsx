@@ -78,7 +78,7 @@ const Login = ({ setIsLoggedIn }) => {
                 </div>
                 <div className="header-heading">
                   <h1>Lending Guru</h1>
-                  <p>For simplifying your EMI management</p>
+                  <p>For simplifying your Journal management</p>
                 </div>
                 <div className="header-login">
                   <h2>Log In</h2>
